@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciadorTarefas.Dominio\GerenciadorTarefas.Dominio.csproj" />
+    <ProjectReference Include="..\GerenciadorTarefas.Infra\GerenciadorTarefas.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

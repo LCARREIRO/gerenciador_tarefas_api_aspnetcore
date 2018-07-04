@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciadorTarefas.Aplicacao\GerenciadorTarefas.Aplicacao.csproj" />
+    <ProjectReference Include="..\GerenciadorTarefas.Dominio\GerenciadorTarefas.Dominio.csproj" />
+    <ProjectReference Include="..\GerenciadorTarefas.Infra\GerenciadorTarefas.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
